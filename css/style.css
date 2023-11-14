@@ -1441,7 +1441,12 @@ footer .container .pad a{
 
 
 @media only screen and (max-width:700px){
-
+    .dropItem7 .box{
+        flex-direction: column;
+    }
+    .dropItem7 .box .images{
+        width: 100%;
+    }
     header nav .side .red{
         display: none;
     }
