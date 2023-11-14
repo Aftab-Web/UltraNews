@@ -1435,6 +1435,10 @@ footer .container .pad a{
     .videos .container h3{
         display: none;
     }
+    header nav .side .dropItem1{
+        position: relative;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width:500px){
