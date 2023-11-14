@@ -925,7 +925,7 @@ header nav .side .none4{
 }
 .recent .container .right .icon{
     width: 48%;
-    padding: 1rem 1rem;
+    padding: 1rem 0;
     color: #fff;
     border-radius: 10%;
     margin-bottom: 1rem;
@@ -1153,6 +1153,8 @@ footer .container .pad a{
 }
 .navigation nav .side a{
     color: #000;
+    padding-left: 10px;
+
 }
 .dropper{
     position: relative;
@@ -1201,13 +1203,11 @@ footer .container .pad a{
 }
 .navigation nav .side .dropItem3{
     display: none;
-    position: absolute;
     flex-flow: column;
     background-color: #fff;
     z-index: 1;
     border-top: 2px solid #000;
     padding: 0 1.5rem 0 0.2rem;
-    width: 8%;
 }
 .navigation nav .side .dropItem3 li a{
     padding: 0.4rem 0;
@@ -1314,9 +1314,55 @@ footer .container .pad a{
     .dropdown1:hover .dropItem1{
         display: block;
     }
+    .navigation nav .side .dropItem1{
+        box-shadow: 0px 5px 20px #a1a1a1;
+    }
+    .navigation nav .side .dropItem2{
+        box-shadow: 0px 5px 20px #a1a1a1;
+    }
+
+    .navigation nav .side .dropItem3{
+        box-shadow: 0px 5px 20px #a1a1a1;
+    }
+
+    .navigation nav .side .dropItem4{
+        box-shadow: 0px 5px 20px #a1a1a1;
+    }
+    .navigation nav .side .dropItem5{
+        box-shadow: 0px 5px 20px #a1a1a1;
+    }
+    .navigation nav .side .dropItem6{
+        box-shadow: 0px 5px 20px #a1a1a1;
+    }
+    header nav .side .dropItem{
+        box-shadow: 0px 5px 20px #a1a1a1;
+    }
+
+
 }
 
 @media only screen and (max-width:1000px) {
+    .navigation nav .side .dropItem1{
+        width: 100%;
+        position: relative;
+    }
+    .navigation nav .side .dropItem2{
+        width: 100%;
+        position: relative;
+    }
+    .navigation nav .side .dropItem3{
+        width: 100%;
+        position: relative;
+    }
+    .navigation nav .side .dropItem4{
+        width: 100%;
+        position: relative;
+    }
+    .navigation nav .side .dropItem5{
+        width: 100%;
+        position: relative;
+    }
+    
     .navigation nav .side .none3{
         display: none;
         position: absolute;
@@ -1390,10 +1436,6 @@ footer .container .pad a{
     footer .container .box{
         margin: 0 auto;
     }
-    header nav .side .dropItem1{
-        position: relative;
-        width: 100%;
-    }
 }
 
 
@@ -1439,7 +1481,6 @@ footer .container .pad a{
     .videos .container h3{
         display: none;
     }
-
 }
 
 @media only screen and (max-width:500px){
